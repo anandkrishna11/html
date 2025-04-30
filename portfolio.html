@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anand Krishna Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body, html {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+    .container {
+      display: flex;
+      height: 100vh;
+      background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.2)), url('background.jpg') no-repeat center center/cover;
+    }
+    .left, .right {
+      width: 50%;
+      padding: 40px;
+    }
+    .left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+    .left h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+    }
+    .socials a {
+      font-size: 1.5em;
+      margin-right: 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .intro {
+      margin-top: 20px;
+      font-size: 1.1em;
+      line-height: 1.5;
+    }
+    .profile-img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 20px;
+      border: 3px solid white;
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .right a {
+      font-size: 1.5em;
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 80px 40px;
+      background-color: #222;
+    }
+    #about, #portfolio, #contact {
+      min-height: 100vh;
+    }
+    h2 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+      <img src="IMG_20241005_170919499_HDR_PORTRAIT[1].jpg" alt="Profile Photo" class="profile-img">
+      <h1>ANAND<br>KRISHNA M A</h1>
+      <div class="intro">
+        Technology excites me, and every line of code tells a story. My journey in computer science has led me through exciting projects and collaborations, each shaping the way I learn and build. Welcome to my world.
+      </div>
+    </div>
+    <div class="right">
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </div>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>My name is ANAND KRISHNA.<br>
+    I am currently studying B.Tech at St. Joseph Engineering College, Palai.<br>
+    I am good at C programming, Python, HTML.<br>
+    I’m passionate about building projects and always exploring new technologies as a B.Tech student.</p>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <p>
+      - Built a personal portfolio website using HTML, CSS, and JavaScript.<br>
+      - Developed a simple calculator web app using Python and Flask.<br>
+      - Created a basic student database system using C.<br>
+      - Participated in inter-collegiate coding challenges and hackathons.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:anandkrishna2005ma@gmail.com">anandkrishna2005ma@gmail.com</a><br>
+    Phone: <a href="tel:+918606808624">8606808624</a></p>
+  </section>
+</body>
+</html>
+
+
