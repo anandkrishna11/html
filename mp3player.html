@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Music Player</title>
+
+
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  <style>
+
+    body {
+      font-family: 'Bebas Neue', sans-serif;
+      background-color: #111;
+      background-image: url("assets/musical-background-music-instruments-on-table-music-background-wooden-background.jpg");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: rgb(135, 126, 171);
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1 {
+      font-size: 100px;
+      letter-spacing: 4px;
+      color: rgb(123, 115, 145);
+      text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+      margin-top: 80px;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 45px;
+      color: rgb(123, 115, 145);
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+      margin-bottom: 40px;
+    }
+
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .btn {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 32px;
+      padding: 12px 24px;
+      background-color: rgba(255, 255, 255, 0.05);
+      color: rgb(123, 115, 145);
+      cursor: pointer;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      border: 2px solid rgb(123, 115, 145);
+      border-radius: 8px;
+      display: block;
+      width: 250px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.5s ease;
+    }
+
+    .btn:hover {
+      background-color: rgba(255, 255, 255, 0.2);
+      transform: scale(1.08);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+      color: white;
+      border-color: white;
+    }
+
+    audio {
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <h1>MUSIC PLAYER</h1>
+  <h2>Choose your favourite language</h2>
+
+  <div class="button-container">
+    <a class="btn" href="hindisongs.html">Hindi</a>
+    <a class="btn" href="englishsongs.html">English</a>
+    <a class="btn" href="tamilsongs.html">Tamil</a>
+    <a class="btn" href="mallusongs.html">Malayalam</a>
+  </div>
+</body>
+</html>
